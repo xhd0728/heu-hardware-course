@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, E:/project/mux21a2130/mux21a2130.vhd
+source_file = 1, e:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, e:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, e:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, e:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, E:/project/mux21a2130/db/mux21a2130.cbx.xml
+design_name = hard_block
+design_name = MUX21A2130
+instance = comp, \y~output\, y~output, MUX21A2130, 1
+instance = comp, \s~input\, s~input, MUX21A2130, 1
+instance = comp, \a~input\, a~input, MUX21A2130, 1
+instance = comp, \b~input\, b~input, MUX21A2130, 1
+instance = comp, \y~0\, y~0, MUX21A2130, 1

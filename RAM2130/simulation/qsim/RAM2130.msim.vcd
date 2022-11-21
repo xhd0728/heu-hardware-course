@@ -1,0 +1,788 @@
+$comment
+	File created using the following command:
+		vcd file RAM2130.msim.vcd -direction
+$end
+$date
+	Mon Nov 21 13:34:54 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module RAM2130_vlg_vec_tst $end
+$var reg 8 ! address [7:0] $end
+$var reg 1 " clock $end
+$var reg 8 # data [7:0] $end
+$var reg 1 $ we $end
+$var wire 1 % q [7] $end
+$var wire 1 & q [6] $end
+$var wire 1 ' q [5] $end
+$var wire 1 ( q [4] $end
+$var wire 1 ) q [3] $end
+$var wire 1 * q [2] $end
+$var wire 1 + q [1] $end
+$var wire 1 , q [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 q[7]~output_o $end
+$var wire 1 4 q[6]~output_o $end
+$var wire 1 5 q[5]~output_o $end
+$var wire 1 6 q[4]~output_o $end
+$var wire 1 7 q[3]~output_o $end
+$var wire 1 8 q[2]~output_o $end
+$var wire 1 9 q[1]~output_o $end
+$var wire 1 : q[0]~output_o $end
+$var wire 1 ; we~input_o $end
+$var wire 1 < clock~input_o $end
+$var wire 1 = clock~inputclkctrl_outclk $end
+$var wire 1 > data[0]~input_o $end
+$var wire 1 ? address[0]~input_o $end
+$var wire 1 @ address[1]~input_o $end
+$var wire 1 A address[2]~input_o $end
+$var wire 1 B address[3]~input_o $end
+$var wire 1 C address[4]~input_o $end
+$var wire 1 D address[5]~input_o $end
+$var wire 1 E address[6]~input_o $end
+$var wire 1 F address[7]~input_o $end
+$var wire 1 G data[1]~input_o $end
+$var wire 1 H data[2]~input_o $end
+$var wire 1 I data[3]~input_o $end
+$var wire 1 J data[4]~input_o $end
+$var wire 1 K data[5]~input_o $end
+$var wire 1 L data[6]~input_o $end
+$var wire 1 M data[7]~input_o $end
+$var wire 1 N inst|sram|ram_block|auto_generated|q_a [7] $end
+$var wire 1 O inst|sram|ram_block|auto_generated|q_a [6] $end
+$var wire 1 P inst|sram|ram_block|auto_generated|q_a [5] $end
+$var wire 1 Q inst|sram|ram_block|auto_generated|q_a [4] $end
+$var wire 1 R inst|sram|ram_block|auto_generated|q_a [3] $end
+$var wire 1 S inst|sram|ram_block|auto_generated|q_a [2] $end
+$var wire 1 T inst|sram|ram_block|auto_generated|q_a [1] $end
+$var wire 1 U inst|sram|ram_block|auto_generated|q_a [0] $end
+$var wire 1 V inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 W inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 X inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 Y inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 Z inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 [ inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 \ inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 ] inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 ^ inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 _ inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 ` inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 a inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 b inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 c inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 d inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 e inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 f inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 g inst|sram|ram_block|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+b0 #
+1$
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0-
+1.
+x/
+10
+11
+12
+03
+04
+05
+06
+07
+08
+09
+0:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+$end
+#20000
+1"
+1<
+1=
+#40000
+b1 !
+b1 #
+0"
+1>
+1?
+0<
+0=
+#60000
+1"
+1<
+1=
+#60001
+1g
+1U
+1:
+1,
+#80000
+b11 !
+b1001 #
+b1011 #
+b10 !
+b1010 #
+0"
+0>
+1G
+1I
+0?
+1@
+0<
+0=
+#100000
+1"
+1<
+1=
+#100001
+0g
+1f
+1d
+0U
+1T
+1R
+17
+19
+0:
+0,
+1+
+1)
+#120000
+b101010 #
+b100010 #
+b100000 #
+b11 !
+0"
+1?
+0G
+0I
+1K
+0<
+0=
+#140000
+1"
+1<
+1=
+#140001
+0f
+0d
+1b
+0T
+0R
+1P
+15
+07
+09
+0+
+0)
+1'
+#160000
+b111 !
+b101 !
+b100001 #
+b1 #
+b1001 #
+b1011 #
+b100 !
+0"
+1>
+1G
+1I
+0K
+0?
+0@
+1A
+0<
+0=
+#180000
+1"
+1<
+1=
+#180001
+1g
+1f
+1d
+0b
+1U
+1T
+1R
+0P
+05
+17
+19
+1:
+1,
+1+
+1)
+0'
+#200000
+b11011 #
+b11010 #
+b111010 #
+b110010 #
+b110000 #
+b101 !
+0"
+1?
+0>
+0G
+0I
+1J
+1K
+0<
+0=
+#220000
+1"
+1<
+1=
+#220001
+0g
+0f
+0d
+1c
+1b
+0U
+0T
+0R
+1Q
+1P
+15
+16
+07
+09
+0:
+0,
+0+
+0)
+1(
+1'
+#240000
+b111 !
+b100000 #
+b100001 #
+b1 #
+b1001 #
+b1011 #
+b110 !
+0"
+1>
+1G
+1I
+0J
+0K
+0?
+1@
+0<
+0=
+#260000
+1"
+1<
+1=
+#260001
+1g
+1f
+1d
+0c
+0b
+1U
+1T
+1R
+0Q
+0P
+05
+06
+17
+19
+1:
+1,
+1+
+1)
+0(
+0'
+#280000
+b1001011 #
+b1001010 #
+b1000010 #
+b1000000 #
+b111 !
+0"
+1?
+0>
+0G
+0I
+1L
+0<
+0=
+#300000
+1"
+1<
+1=
+#300001
+0g
+0f
+0d
+1a
+0U
+0T
+0R
+1O
+14
+07
+09
+0:
+0,
+0+
+0)
+1&
+#320000
+b1111 !
+b1011 !
+b1001 !
+b0 #
+b1 #
+b1000 !
+0"
+1>
+0L
+0?
+0@
+0A
+1B
+0<
+0=
+#340000
+1"
+1<
+1=
+#340001
+1g
+0a
+1U
+0O
+04
+1:
+1,
+0&
+#360000
+b101 #
+b10101 #
+b110101 #
+b1010 !
+b110100 #
+0"
+1@
+0>
+1H
+1J
+1K
+0<
+0=
+#380000
+1"
+1<
+1=
+#380001
+0g
+1e
+1c
+1b
+0U
+1S
+1Q
+1P
+15
+16
+18
+0:
+0,
+1*
+1(
+1'
+#400000
+0$
+b111100 #
+b111110 #
+b10 !
+b111010 #
+b101010 #
+b1010 #
+b0 !
+0"
+0;
+0@
+0B
+1G
+0H
+1I
+0J
+0K
+0<
+0=
+#420000
+1"
+1<
+1=
+#420001
+0e
+0c
+0b
+0S
+0Q
+0P
+05
+06
+08
+0*
+0(
+0'
+#440000
+b1 !
+b10 #
+b0 #
+0"
+0G
+0I
+1?
+0<
+0=
+#460000
+1"
+1<
+1=
+#460001
+1g
+1U
+1:
+1,
+#480000
+b11 !
+b10 !
+0"
+0?
+1@
+0<
+0=
+#500000
+1"
+1<
+1=
+#500001
+0g
+1f
+1d
+0U
+1T
+1R
+17
+19
+0:
+0,
+1+
+1)
+#520000
+b1010 !
+0"
+1B
+0<
+0=
+#540000
+1"
+1<
+1=
+#540001
+0f
+1e
+0d
+1c
+1b
+0T
+1S
+0R
+1Q
+1P
+15
+16
+07
+18
+09
+0+
+1*
+0)
+1(
+1'
+#560000
+b1011 !
+b11 !
+0"
+1?
+0B
+0<
+0=
+#580000
+1"
+1<
+1=
+#580001
+0e
+0c
+0S
+0Q
+06
+08
+0*
+0(
+#600000
+b111 !
+b101 !
+b100 !
+0"
+0?
+0@
+1A
+0<
+0=
+#620000
+1"
+1<
+1=
+#620001
+1g
+1f
+1d
+0b
+1U
+1T
+1R
+0P
+05
+17
+19
+1:
+1,
+1+
+1)
+0'
+#640000
+b1100 !
+b1000 !
+b1010 !
+b1011 !
+0"
+1?
+1@
+0A
+1B
+0<
+0=
+#660000
+1"
+1<
+1=
+#660001
+0g
+0f
+0d
+0U
+0T
+0R
+07
+09
+0:
+0,
+0+
+0)
+#680000
+b11 !
+b111 !
+b101 !
+0"
+0@
+1A
+0B
+0<
+0=
+#700000
+1"
+1<
+1=
+#700001
+1c
+1b
+1Q
+1P
+15
+16
+1(
+1'
+#720000
+b100 !
+b110 !
+0"
+0?
+1@
+0<
+0=
+#740000
+1"
+1<
+1=
+#740001
+1g
+1f
+1d
+0c
+0b
+1U
+1T
+1R
+0Q
+0P
+05
+06
+17
+19
+1:
+1,
+1+
+1)
+0(
+0'
+#760000
+b1110 !
+b1010 !
+b1000 !
+0"
+0@
+0A
+1B
+0<
+0=
+#780000
+1"
+1<
+1=
+#780001
+0f
+0d
+0T
+0R
+07
+09
+0+
+0)
+#800000
+b0 !
+0"
+0B
+0<
+0=
+#820000
+1"
+1<
+1=
+#820001
+0g
+0U
+0:
+0,
+#840000
+0"
+0<
+0=
+#860000
+1"
+1<
+1=
+#880000
+0"
+0<
+0=
+#900000
+1"
+1<
+1=
+#920000
+0"
+0<
+0=
+#940000
+1"
+1<
+1=
+#960000
+0"
+0<
+0=
+#980000
+1"
+1<
+1=
+#1000000

@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/project/BUS2130/simulation/qsim
+vBUS2130
+Z1 !s110 1669012684
+!i10b 1
+!s100 n;1knWYZbFX69]Hi5illg1
+IdPKkS8_m02cZJl7b=BPXj0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1669012683
+Z4 8BUS2130.vo
+Z5 FBUS2130.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669012683.000000
+Z8 !s107 BUS2130.vo|
+Z9 !s90 -work|work|BUS2130.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@b@u@s2130
+vBUS2130_vlg_vec_tst
+R1
+!i10b 1
+!s100 @?ZKX<T_BUFm0<LVNbS1Z0
+I1YBbHCg`hLWcQ6d=f6k_f0
+R2
+R0
+w1669012682
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1669012684.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@b@u@s2130_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 `WgjWiUB6f4[AU0>V0h_13
+IVLEmfV9@6=LCz3SKOLbR`3
+R2
+R0
+R3
+R4
+R5
+L0 1851
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

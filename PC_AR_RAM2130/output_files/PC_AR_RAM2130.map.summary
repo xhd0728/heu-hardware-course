@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 21 19:41:41 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : PC_AR_RAM2130
+Top-level Entity Name : PC_AR_RAM2130
+Family : Cyclone IV E
+Total logic elements : 50
+    Total combinational functions : 50
+    Dedicated logic registers : 16
+Total registers : 16
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/project/Computer2130/simulation/qsim
+vComputer2130
+Z1 !s110 1669032571
+!i10b 1
+!s100 >P69B^HZ7gjh?NJg7DhGd1
+IS>zSLWhDV8YOE52`9g1HI1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1669032572
+Z4 8Computer2130.vo
+Z5 FComputer2130.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669032571.000000
+Z8 !s107 Computer2130.vo|
+Z9 !s90 -work|work|Computer2130.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@computer2130
+vComputer2130_vlg_vec_tst
+!s110 1669032572
+!i10b 1
+!s100 =88d[a@8O[WR32BX6B?ET1
+Iizd68oR]An==h<9=^azdX0
+R2
+R0
+w1669032570
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@computer2130_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 MNSHV<WoMPTIOZ22C@L@=3
+IH7Z5;c@D@n5b8]Rac9mIl0
+R2
+R0
+R3
+R4
+R5
+L0 8599
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,226 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/21/2022 13:34:52"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          RAM2130
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module RAM2130_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [7:0] address;
+reg clock;
+reg [7:0] data;
+reg we;
+// wires                                               
+wire [7:0] q;
+
+// assign statements (if any)                          
+RAM2130 i1 (
+// port map - connection between master ports and signals/registers   
+	.address(address),
+	.clock(clock),
+	.data(data),
+	.q(q),
+	.we(we)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+// address[ 7 ]
+initial
+begin
+	address[7] = 1'b0;
+end 
+// address[ 6 ]
+initial
+begin
+	address[6] = 1'b0;
+end 
+// address[ 5 ]
+initial
+begin
+	address[5] = 1'b0;
+end 
+// address[ 4 ]
+initial
+begin
+	address[4] = 1'b0;
+end 
+// address[ 3 ]
+initial
+begin
+	address[3] = 1'b0;
+	address[3] = #320000 1'b1;
+	address[3] = #80000 1'b0;
+	address[3] = #120000 1'b1;
+	address[3] = #40000 1'b0;
+	address[3] = #80000 1'b1;
+	address[3] = #40000 1'b0;
+	address[3] = #80000 1'b1;
+	address[3] = #40000 1'b0;
+end 
+// address[ 2 ]
+initial
+begin
+	address[2] = 1'b0;
+	address[2] = #160000 1'b1;
+	address[2] = #160000 1'b0;
+	address[2] = #280000 1'b1;
+	address[2] = #40000 1'b0;
+	address[2] = #40000 1'b1;
+	address[2] = #80000 1'b0;
+end 
+// address[ 1 ]
+initial
+begin
+	address[1] = 1'b0;
+	address[1] = #80000 1'b1;
+	address[1] = #80000 1'b0;
+	address[1] = #80000 1'b1;
+	address[1] = #80000 1'b0;
+	address[1] = #40000 1'b1;
+	address[1] = #40000 1'b0;
+	address[1] = #80000 1'b1;
+	address[1] = #120000 1'b0;
+	address[1] = #40000 1'b1;
+	address[1] = #40000 1'b0;
+	address[1] = #40000 1'b1;
+	address[1] = #40000 1'b0;
+end 
+// address[ 0 ]
+initial
+begin
+	address[0] = 1'b0;
+	address[0] = #40000 1'b1;
+	address[0] = #40000 1'b0;
+	address[0] = #40000 1'b1;
+	address[0] = #40000 1'b0;
+	address[0] = #40000 1'b1;
+	address[0] = #40000 1'b0;
+	address[0] = #40000 1'b1;
+	address[0] = #40000 1'b0;
+	address[0] = #120000 1'b1;
+	address[0] = #40000 1'b0;
+	address[0] = #80000 1'b1;
+	address[0] = #40000 1'b0;
+	address[0] = #40000 1'b1;
+	address[0] = #80000 1'b0;
+end 
+
+// clock
+always
+begin
+	clock = 1'b0;
+	clock = #20000 1'b1;
+	#20000;
+end 
+// data[ 7 ]
+initial
+begin
+	data[7] = 1'b0;
+end 
+// data[ 6 ]
+initial
+begin
+	data[6] = 1'b0;
+	data[6] = #280000 1'b1;
+	data[6] = #40000 1'b0;
+end 
+// data[ 5 ]
+initial
+begin
+	data[5] = 1'b0;
+	data[5] = #120000 1'b1;
+	data[5] = #40000 1'b0;
+	data[5] = #40000 1'b1;
+	data[5] = #40000 1'b0;
+	data[5] = #120000 1'b1;
+	data[5] = #40000 1'b0;
+end 
+// data[ 4 ]
+initial
+begin
+	data[4] = 1'b0;
+	data[4] = #200000 1'b1;
+	data[4] = #40000 1'b0;
+	data[4] = #120000 1'b1;
+	data[4] = #40000 1'b0;
+end 
+// data[ 3 ]
+initial
+begin
+	data[3] = 1'b0;
+	data[3] = #80000 1'b1;
+	data[3] = #40000 1'b0;
+	data[3] = #40000 1'b1;
+	data[3] = #40000 1'b0;
+	data[3] = #40000 1'b1;
+	data[3] = #40000 1'b0;
+	data[3] = #120000 1'b1;
+	data[3] = #40000 1'b0;
+end 
+// data[ 2 ]
+initial
+begin
+	data[2] = 1'b0;
+	data[2] = #360000 1'b1;
+	data[2] = #40000 1'b0;
+end 
+// data[ 1 ]
+initial
+begin
+	data[1] = 1'b0;
+	data[1] = #80000 1'b1;
+	data[1] = #40000 1'b0;
+	data[1] = #40000 1'b1;
+	data[1] = #40000 1'b0;
+	data[1] = #40000 1'b1;
+	data[1] = #40000 1'b0;
+	data[1] = #120000 1'b1;
+	data[1] = #40000 1'b0;
+end 
+// data[ 0 ]
+initial
+begin
+	data[0] = 1'b0;
+	data[0] = #40000 1'b1;
+	data[0] = #40000 1'b0;
+	data[0] = #80000 1'b1;
+	data[0] = #40000 1'b0;
+	data[0] = #40000 1'b1;
+	data[0] = #40000 1'b0;
+	data[0] = #40000 1'b1;
+	data[0] = #40000 1'b0;
+end 
+
+// we
+initial
+begin
+	we = 1'b1;
+	we = #400000 1'b0;
+end 
+endmodule
+

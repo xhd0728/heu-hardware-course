@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/xhd0728/Documents/Quartus Files/uControl2130/simulation/qsim
+vhard_block
+Z1 !s110 1669031698
+!i10b 1
+!s100 lK2CPaLIKZEzRk36Cbc8P1
+IKdV[EM]N<cMi:@>3:<@@83
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1669031697
+Z4 8uControl2130.vo
+Z5 FuControl2130.vo
+L0 2441
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669031698.000000
+Z8 !s107 uControl2130.vo|
+Z9 !s90 -work|work|uControl2130.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vuControl2130
+R1
+!i10b 1
+!s100 QmYA8c<^?Z3R3jR?V7i793
+I=[b@oV`N;lAKc;`_@Hgz=0
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nu@control2130
+vuControl2130_vlg_vec_tst
+R1
+!i10b 1
+!s100 BL7Z0UlLEnCkbg>ILgUKz1
+Imo9k5A7kz_C:U2nWUg0j[1
+R2
+R0
+w1669031696
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+nu@control2130_vlg_vec_tst

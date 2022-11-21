@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Nov 21 20:06:44 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Computer2130
+Top-level Entity Name : Computer2130
+Family : Cyclone IV E
+Total logic elements : 276
+    Total combinational functions : 223
+    Dedicated logic registers : 91
+Total registers : 91
+Total pins : 106
+Total virtual pins : 0
+Total memory bits : 3,584
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

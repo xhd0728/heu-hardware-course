@@ -1,0 +1,293 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/21/2022 14:38:02"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          BUS2130
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module BUS2130_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk1;
+reg clk2;
+reg clk3;
+reg clk4;
+reg [7:0] d0;
+reg [1:0] sel;
+reg we;
+// wires                                               
+wire [7:0] bus;
+wire [7:0] led;
+
+// assign statements (if any)                          
+BUS2130 i1 (
+// port map - connection between master ports and signals/registers   
+	.bus(bus),
+	.clk1(clk1),
+	.clk2(clk2),
+	.clk3(clk3),
+	.clk4(clk4),
+	.d0(d0),
+	.led(led),
+	.sel(sel),
+	.we(we)
+);
+initial 
+begin 
+#1500000 $finish;
+end 
+// d0[ 7 ]
+initial
+begin
+	d0[7] = 1'b0;
+end 
+// d0[ 6 ]
+initial
+begin
+	d0[6] = 1'b0;
+end 
+// d0[ 5 ]
+initial
+begin
+	d0[5] = 1'b0;
+end 
+// d0[ 4 ]
+initial
+begin
+	d0[4] = 1'b0;
+end 
+// d0[ 3 ]
+initial
+begin
+	d0[3] = 1'b0;
+	d0[3] = #660000 1'b1;
+	d0[3] = #40000 1'b0;
+	d0[3] = #80000 1'b1;
+	d0[3] = #40000 1'b0;
+	d0[3] = #80000 1'b1;
+	d0[3] = #40000 1'b0;
+end 
+// d0[ 2 ]
+initial
+begin
+	d0[2] = 1'b1;
+	d0[2] = #40000 1'b0;
+	d0[2] = #40000 1'b1;
+	d0[2] = #40000 1'b0;
+	d0[2] = #500000 1'b1;
+	d0[2] = #40000 1'b0;
+	d0[2] = #160000 1'b1;
+	d0[2] = #40000 1'b0;
+	d0[2] = #80000 1'b1;
+	d0[2] = #40000 1'b0;
+	d0[2] = #120000 1'b1;
+	d0[2] = #40000 1'b0;
+	d0[2] = #40000 1'b1;
+	d0[2] = #40000 1'b0;
+end 
+// d0[ 1 ]
+initial
+begin
+	d0[1] = 1'b1;
+	d0[1] = #40000 1'b0;
+	d0[1] = #40000 1'b1;
+	d0[1] = #40000 1'b0;
+	d0[1] = #140000 1'b1;
+	d0[1] = #40000 1'b0;
+	d0[1] = #400000 1'b1;
+	d0[1] = #40000 1'b0;
+	d0[1] = #160000 1'b1;
+	d0[1] = #40000 1'b0;
+	d0[1] = #80000 1'b1;
+	d0[1] = #40000 1'b0;
+end 
+// d0[ 0 ]
+initial
+begin
+	d0[0] = 1'b0;
+	d0[0] = #40000 1'b1;
+	d0[0] = #120000 1'b0;
+	d0[0] = #380000 1'b1;
+	d0[0] = #40000 1'b0;
+	d0[0] = #120000 1'b1;
+	d0[0] = #40000 1'b0;
+	d0[0] = #40000 1'b1;
+	d0[0] = #40000 1'b0;
+	d0[0] = #120000 1'b1;
+	d0[0] = #40000 1'b0;
+	d0[0] = #40000 1'b1;
+	d0[0] = #40000 1'b0;
+	d0[0] = #120000 1'b1;
+	d0[0] = #40000 1'b0;
+end 
+
+// clk1
+initial
+begin
+	clk1 = 1'b0;
+	clk1 = #10000 1'b1;
+	clk1 = #20000 1'b0;
+	clk1 = #170000 1'b1;
+	clk1 = #20000 1'b0;
+	clk1 = #210000 1'b1;
+	clk1 = #20000 1'b0;
+	clk1 = #220000 1'b1;
+	clk1 = #20000 1'b0;
+	clk1 = #100000 1'b1;
+	clk1 = #20000 1'b0;
+	clk1 = #100000 1'b1;
+	clk1 = #20000 1'b0;
+end 
+
+// clk2
+initial
+begin
+	clk2 = 1'b0;
+	clk2 = #50000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #60000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #80000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #20000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #100000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #140000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #140000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #100000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #100000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #60000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #60000 1'b1;
+	clk2 = #20000 1'b0;
+	clk2 = #60000 1'b1;
+	clk2 = #20000 1'b0;
+end 
+
+// clk3
+initial
+begin
+	clk3 = 1'b0;
+	clk3 = #90000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #70000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #110000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #20000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #380000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #100000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #100000 1'b1;
+	clk3 = #20000 1'b0;
+	clk3 = #50000 1'b1;
+	clk3 = #30000 1'b0;
+	clk3 = #50000 1'b1;
+	clk3 = #30000 1'b0;
+	clk3 = #50000 1'b1;
+	clk3 = #30000 1'b0;
+end 
+
+// clk4
+initial
+begin
+	clk4 = 1'b0;
+	clk4 = #470000 1'b1;
+	clk4 = #20000 1'b0;
+	clk4 = #20000 1'b1;
+	clk4 = #20000 1'b0;
+	clk4 = #60000 1'b1;
+	clk4 = #20000 1'b0;
+	clk4 = #20000 1'b1;
+	clk4 = #20000 1'b0;
+	clk4 = #420000 1'b1;
+	clk4 = #20000 1'b0;
+	clk4 = #60000 1'b1;
+	clk4 = #20000 1'b0;
+	clk4 = #60000 1'b1;
+	clk4 = #20000 1'b0;
+end 
+// sel[ 1 ]
+initial
+begin
+	sel[1] = 1'b0;
+	sel[1] = #160000 1'b1;
+	sel[1] = #100000 1'b0;
+	sel[1] = #80000 1'b1;
+	sel[1] = #40000 1'b0;
+	sel[1] = #40000 1'b1;
+	sel[1] = #40000 1'b0;
+	sel[1] = #40000 1'b1;
+	sel[1] = #40000 1'b0;
+	sel[1] = #40000 1'b1;
+	sel[1] = #40000 1'b0;
+	sel[1] = #440000 1'b1;
+	sel[1] = #40000 1'b0;
+	sel[1] = #40000 1'b1;
+	sel[1] = #40000 1'b0;
+	sel[1] = #40000 1'b1;
+	sel[1] = #30000 1'b0;
+end 
+// sel[ 0 ]
+initial
+begin
+	sel[0] = 1'b0;
+	sel[0] = #300000 1'b1;
+	sel[0] = #240000 1'b0;
+	sel[0] = #200000 1'b1;
+	sel[0] = #40000 1'b0;
+	sel[0] = #80000 1'b1;
+	sel[0] = #40000 1'b0;
+	sel[0] = #80000 1'b1;
+	sel[0] = #40000 1'b0;
+end 
+
+// we
+initial
+begin
+	we = 1'b0;
+	we = #80000 1'b1;
+	we = #40000 1'b0;
+	we = #40000 1'b1;
+	we = #100000 1'b0;
+	we = #40000 1'b1;
+	we = #80000 1'b0;
+	we = #200000 1'b1;
+	we = #40000 1'b0;
+	we = #120000 1'b1;
+	we = #40000 1'b0;
+	we = #80000 1'b1;
+	we = #40000 1'b0;
+	we = #80000 1'b1;
+	we = #40000 1'b0;
+end 
+endmodule
+

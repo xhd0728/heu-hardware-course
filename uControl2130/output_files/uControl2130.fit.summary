@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 21 19:54:43 2022
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : uControl2130
+Top-level Entity Name : uControl2130
+Family : Cyclone IV E
+Device : EP4CE55F23C8
+Timing Models : Final
+Total logic elements : 54 / 55,856 ( < 1 % )
+    Total combinational functions : 52 / 55,856 ( < 1 % )
+    Dedicated logic registers : 11 / 55,856 ( < 1 % )
+Total registers : 11
+Total pins : 63 / 325 ( 19 % )
+Total virtual pins : 0
+Total memory bits : 1,536 / 2,396,160 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 308 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
